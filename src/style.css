@@ -1,0 +1,29 @@
+/* MAIN VARIABLES FOR PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+  --mainBackground:  #f0fbff;
+  --secondBackground: #acdcee;
+  --thirdBackground: #0D3B66;
+  --thirdFont: #860021;
+  --mainFont: #475053;
+  --secondFont: #2e94b9;
+  --darkColor: black;
+  --lightColor: white;
+  --mainFontFamily: 'Poppins', sans-serif;
+  --gradient: linear-gradient(to left top, #0D3B66 10%, #860021 90%) !important;
+}
+
+/* Body Style */
+body{
+    background-color: var(--mainBackground);
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

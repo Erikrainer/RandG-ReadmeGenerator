@@ -1,0 +1,132 @@
+/* MAIN VARIABLES FOR PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+  --mainBackground:  #f0fbff;
+  --secondBackground: #acdcee;
+  --thirdBackground: #0D3B66;
+  --thirdFont: #860021;
+  --mainFont: #475053;
+  --secondFont: #2e94b9;
+  --darkColor: black;
+  --lightColor: white;
+  --mainFontFamily: 'Poppins', sans-serif;
+  --gradient: linear-gradient(to left top, #0D3B66 10%, #860021 90%) !important;
+}
+/* Header Style START */
+#headerTitle{
+  font-size: 2vw;
+  font-family: var(--mainFontFamily);
+    font-size: 2vw;
+    background: #09C826;
+    background: linear-gradient(to right, #09C826 0%, #A53791 77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(1.5);
+}
+
+.nav-item {
+  font-size: 1.5vw;
+}
+
+#icons:hover {
+  transform: scale(1.5);
+}
+
+/* Header Style END */
+
+/* Footer Style START */
+#footerText {
+  color: var(--mainFont);
+  font-family: var(--mainFontFamily);
+}
+
+/* Footer Style END */
+
+/*PAGE MEDIA QUERIES START*/
+
+  @media (max-width: 576px) {
+    #headerTitle {
+      font-size: 5vw;
+      margin: 0;
+    }
+  
+    .nav-item {
+      font-size: 3.5vw;
+      margin: 0.5rem 0;
+    }
+  
+    .nav-link {
+      font-size: 1.25rem;
+    }
+  
+    #icons {
+      margin: 1rem 0;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-collapse {
+      text-align: center;
+    }
+  
+    .navbar-toggler {
+      margin: 0.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #headerTitle {
+      font-size: 4vw;
+    }
+  
+    .nav-item {
+      font-size: 3vw;
+    }
+  
+    #icons {
+      margin: 2rem 0;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 1rem 0;
+    }
+  
+    .navbar-toggler {
+      margin: 1rem;
+    }
+  
+    .navbar-collapse {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    #headerTitle {
+      font-size: 2.5vw;
+    }
+  
+    .nav-item {
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #headerTitle {
+      font-size: 3vw;
+    }
+  
+    .nav-item {
+      font-size: 2.5vw;
+    }
+  }
+
+/*PAGE MEDIA QUERIES END*/
+  
