@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--mainBackground);
+  background-color: var(--darkColor);
   font-family: var(--mainFontFamily);
 }
 
@@ -64,98 +64,25 @@ body {
 }
 
 .form-control {
-  background-color: var(--secondBackground);
-  border: 1px solid var(--mainFont);
+  background-color: var(--mainBackground);
+  border: 1px solid var(--thirdFont);
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .form-control:focus {
-  background-color: var(--lightColor);
-  border-color: var(--secondFont);
+  background-color: var(--secondBackground);
+  border-color: var(--);
   box-shadow: 0 0 0 0.2rem rgba(46, 148, 185, 0.25);
 }
 
 .btn-primary {
   background-color: var(--thirdBackground);
-  border-color: var(--thirdBackground);
+  border-color: var(--mainBackground);
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 .btn-primary:hover {
   background-color: var(--thirdFont);
   border-color: var(--thirdFont);
-}
-
-/* HOME PAGE MEDIA QUERIES START*/
-@media (max-width: 1200px) {
-  #presentationContainer {
-    font-size: 3.5vw;
-  }
-  #presentationName {
-    font-size: 5vw;
-  }
-
-  #presentationText {
-    font-size: 1.25vw;
-  }
-}
-
-@media (max-width: 992px) {
-  #presentationContainer {
-    font-size: 4vw;
-  }
-
-  #presentationName {
-    font-size: 5vw;
-  }
-
-  #presentationText {
-    font-size: 1.5vw;
-  }
-}
-
-@media (max-width: 768px) {
-  #presentationContainer {
-    font-size: 5vw;
-  }
-
-  #presentationName {
-    font-size: 5vw;
-  }
-
-  #presentationText {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 576px) {
-  #presentationContainer {
-    font-size: 6vw;
-  }
-  #presentationName {
-    font-size: 5vw;
-  }
-
-  #presentationText {
-    font-size: 2.5vw;
-  }
-}
-/* HOME PAGE MEDIA QUERIES END */
-
-/* Hide the checkbox */
-.checkbox-custom input[type="checkbox"] {
-  display: none;
-}
-
-/* Style the custom checkbox label */
-.checkbox-custom-label {
-  cursor: pointer;
-  font-size: 16px;
-}
-
-/* Highlight the label on hover */
-.checkbox-custom-label:hover {
-  text-decoration: underline;
-  color: #007bff;
 }

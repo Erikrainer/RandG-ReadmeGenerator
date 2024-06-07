@@ -179,7 +179,7 @@ ${liveLinkSection}
             <div className="form-group">
               <label htmlFor="github">GitHub</label>
               <div>
-                <FaGithub size={20} />
+                <FaGithub size={20} color={"white"} />
                 <input
                   type="text"
                   className="form-control mt-3 mb-3"
@@ -208,7 +208,7 @@ ${liveLinkSection}
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <div>
-                <FaEnvelope size={20} />
+                <FaEnvelope size={20} color={"white"} />
                 <input
                   type="email"
                   className="form-control mt-3 mb-3"
